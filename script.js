@@ -200,6 +200,5 @@ searchButton.addEventListener("click", applySearch);
 searchInput.addEventListener("input", applySearch);
 searchInput.addEventListener("search", applySearch);
 
-
 currentState.sort(sortByAlphabet);
 renderItems(currentState);
